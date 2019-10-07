@@ -4,7 +4,6 @@ import './BlogPost.scss';
 class BlogPost extends Component {
     render() {
         let dt = this.props.dataObj;
-        console.log(dt);
         return (
             <article className="blogposts-list">
                 <div className="no-featured-img-box">
